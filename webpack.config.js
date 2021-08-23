@@ -2,6 +2,9 @@ const path = require('path');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.jsx'),
+  devServer: {
+    port: 8081,
+  },
   module: {
     rules: [
       {
